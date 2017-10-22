@@ -1,5 +1,2 @@
 # Custom libs
 ep_core
-
-# Currently from private Pypi server
-crawlino

@@ -1,12 +1,16 @@
-gevent
-ujson==1.35
+flask==0.12.2
 requests==2.18.1
 SQLAlchemy==1.1.11
+pg8000==1.11.0
 pymysql==0.7.11
-lxml==3.8.0
+flask-admin
+flask-script
 sqlalchemy-utils==0.32.14
-raven
+WTForms-Alchemy==0.16.3
+flask-s3==0.3.3
+raven[flask]
+Flask-Cache
 
-# Crawlers
-html2text
-markdown2
+# Deploy
+gunicorn
+gevent
